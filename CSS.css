@@ -1,0 +1,21 @@
+.block			{
+					width: 60px;
+					height: 60px;
+					float: left;
+					border: 2.5px solid white;
+					box-sizing: border-box;
+					font-size:36px;
+					text-align:center;
+					color:red;
+				}
+
+#game			{
+					width: 480px;
+					height: 480px;
+					margin-left: 35%;
+					margin-top: 3%;
+				}
+
+body			{
+					background-color: gray;
+				}
