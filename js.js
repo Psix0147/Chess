@@ -161,5 +161,5 @@ function MakeDesk(){
 				}
 			}	
 		}	
-	};
+	}
 }	
