@@ -5,4 +5,4 @@ before_install:
 - "sudo apt-get install -y nodejs"
 - "sudo npm install -g eslint"
 - "sudo eslint --init"
-- "sudo eslint js.js"
+- "sudo eslint js.js --fix"
