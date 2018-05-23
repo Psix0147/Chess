@@ -1,5 +1,5 @@
-before_script: 
-sudo npm install -g eslint
+sudo: true
+before_script: sudo npm install -g eslint
 
 language: node_js
 script: eslint js.js
