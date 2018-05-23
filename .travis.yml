@@ -1,8 +1,15 @@
-before_script:
-  - sudo npm install -g grunt
-
-script: grunt test --verbose --force
-
+sudo: false
 language: node_js
 node_js:
-- "eslint js.js" --fix
+  - '8'
+  - '6'
+  - '4'
+before_script:
+  - npm install -g gulp
+  - gulp lint
+after_success: npm run coveralls
+
+# whitelist
+branches:
+  only:
+- master
