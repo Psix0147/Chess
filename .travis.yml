@@ -1,14 +1,8 @@
 language: node_js
-node_js:
-  - '8'
-  - '6'
-  - '4'
-before_script:
-  - npm install -g gulp
-  - gulp lint
-after_success: npm run coveralls
-
-# whitelist
-branches:
-  only:
-- master
+sudo: true
+before_install:
+- "curl -sL https://deb.nodesource.com/setup_8.x | sudo -E bash -"
+- "sudo apt-get install -y nodejs"
+- "sudo npm install -g eslint"
+- "sudo eslint --init"
+- "sudo eslint js.js"
