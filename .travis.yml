@@ -6,5 +6,3 @@ before_install:
 - "sudo npm install -g eslint"
 - "sudo eslint --init"
 - "sudo eslint js.js"
-- " 
-"
