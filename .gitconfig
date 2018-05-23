@@ -1,0 +1,7 @@
+[user]
+	email = zhigadlov22@gmail.com
+	name = Psix0147
+[alias]
+	hist = log --oneline --decorate --graph --all
+[push]
+	default = matching
