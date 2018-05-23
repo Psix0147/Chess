@@ -1,8 +1,6 @@
 sudo: true
-
-language: node_js
-script: 
-curl -sL https://deb.nodesource.com/setup_8.x | sudo -E bash -
+before_script: curl -sL https://deb.nodesource.com/setup_8.x | sudo -E bash -
 sudo apt-get install -y nodejs
 sudo install -g eslint
-eslint js.js
+language: node_js
+script: eslint js.js
