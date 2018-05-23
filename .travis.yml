@@ -3,4 +3,4 @@ language: node_js
 sudo: true
 before_install:
 - "sudo npm install -g eslint"
-- "eslint -v"
+- "eslint js.js"
