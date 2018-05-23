@@ -78,9 +78,8 @@ function MakeDesk(){
 				}
 			}	
 		}	
-	};
+	}
 }	
-=======
 //Создание поля//	
 for (var i=0; i<64; i++){
 	document.getElementById("game").innerHTML += "<div class=\"block\"></div>";
