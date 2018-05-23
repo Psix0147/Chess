@@ -4,5 +4,5 @@ sudo: true
 before_install:
 - "curl -sL https://deb.nodesource.com/setup_8.x | sudo -E bash -"
 - "sudo apt-get install -y nodejs"
-- "sudo install -g eslint"
+- "sudo npv install -g eslint"
 script: eslint js.js
